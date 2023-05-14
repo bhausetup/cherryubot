@@ -1,7 +1,7 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "26561490")) #optional
+API_HASH = getenv("API_HASH", "1cf95f489c37be14568c94a8d09916b8") #optional
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_URL = getenv("MONGO_URL", "")
@@ -10,10 +10,10 @@ LOG_GROUP = getenv("LOG_GROUP", "")
 PM_LOGGER = getenv("PM_LOGGER", "")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5368154755").split()))
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/RRomeo-RJ/ROMEO-USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/bhausetup/cherryubot")
 BRANCH = getenv("BRANCH", "master") #don't change
-ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/a62b9c7d9848afde0569e.jpg")
-ALIVE_TEXT = getenv("ALIVE_TEXT", "ʀᴏᴍᴇᴏʙᴏᴛ")
+ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/7c1dffc198eef66eaf21f.jpg")
+ALIVE_TEXT = getenv("ALIVE_TEXT", "cherryʙᴏᴛ")
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
