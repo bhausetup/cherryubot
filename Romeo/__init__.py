@@ -18,13 +18,13 @@ if API_ID:
    API_ID = API_ID
 else:
    print("WARNING: API ID NOT FOUND USING ROMEO API ⚡")
-   API_ID = "6435225"
+   API_ID = "26561490"
 
 if API_HASH:
    API_HASH = API_HASH
 else:
    print("WARNING: API HASH NOT FOUND USING ROMEO API ⚡")   
-   API_HASH = "4e984ea35f854762dcde906dce426c2d"
+   API_HASH = "1cf95f489c37be14568c94a8d09916b8"
 
 if not BOT_TOKEN:
    print("WARNING: BOT TOKEN NOT FOUND PLZ ADD ⚡")   
@@ -39,7 +39,7 @@ app = Client(
 )
 
 if STRING_SESSION1:
-   print("Client1: Found.. Starting..📳")
+   print("Client1: Found.. Starting.. 📳")
    client1 = Client(name="one", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION1, plugins=dict(root="Romeo/modules"))
    clients.append(client1)
 
