@@ -6,23 +6,24 @@
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
-            "description": "fill with the telethon session string from @RJssgBot",
+            "description": "fill with the telethon session string from @STRING_XBOT",
             "required": true
         },
         "STRING_SESSION2": {
-            "description": "fill with the telethon session string from @RJssgBot",
+            "description": "fill with the telethon session string from @STRING_XBOT",
             "required": false
         },
         "STRING_SESSION3": {
-            "description": "fill with the telethon session string from @RJssgBot",
+            "description": "fill with the telethon session string from @STRING_XBOT",
             "required": false
         },
         "STRING_SESSION4": {
-            "description": "fill with the telethon session string from @RJssgBot",
+            "description": "fill with the telethon session string from @STRING_XBOT",
+            
             "required": false
         },
         "STRING_SESSION5": {
-            "description": "fill with the telethon session string from @RJssgBot",
+            "description": "fill with the telethon session string from @STRING_XBOT",
             "required": false
         },
         "MONGO_URL": {
