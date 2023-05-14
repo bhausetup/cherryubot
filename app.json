@@ -1,8 +1,8 @@
 {
-    "name": "Romeo-Userbot",
+    "name": "ϲнёяяγ υѕєяϐот",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/RRomeo-RJ/Romeo-Userbot",
+    "repository": "https://github.com/RRomeo-RJ/cheeryubot",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -33,12 +33,12 @@
         "SUDO_USERS": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "5368154755"
+            "value": "5572586305"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
-            "value": "5368154755"
+            "value": "5572586305"
         },
         "LOG_GROUP": {
             "description": "Fill there your group I'd go to create a group and add make an admin with @MissRose_bot to your group and type /id",
