@@ -91,7 +91,7 @@ async def dmspam(spam: Client, e: Message):
           else:
               counts = int(text[0])
               msg = str(Romeo[0])
-              await e.reply_text("☢️ Dm Spam Strated ☢️")
+              await e.reply_text("👅 Dm Spam Strated  ab ma chudegi 👅")
               for _ in range(counts):
                     await spam.send_message(id, msg)
                     await asyncio.sleep(0.10)
